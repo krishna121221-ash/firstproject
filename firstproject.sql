@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 22, 2022 at 03:15 PM
+-- Generation Time: Jan 24, 2022 at 06:26 AM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.7
 
@@ -64,16 +64,17 @@ CREATE TABLE `word_data` (
 --
 
 INSERT INTO `word_data` (`word`, `phonetic`, `phonetics`, `origin`, `meanings`, `id`) VALUES
-('hi', 'hʌɪ', 'hʌɪ', '', 'Array', 17),
-('hello', 'həˈləʊ', 'həˈləʊ', '', 'Array', 18),
-('USA', 'juːɛsˈeɪ', 'juːɛsˈeɪ', '', 'Array', 19),
-('PHP', '', '', '', 'Array', 20),
-('java', 'ˈdʒɑːvə', 'ˈdʒɑːvə', '', 'Array', 21),
-('hi', 'hʌɪ', 'hʌɪ', '', 'Array', 22),
-('hello', 'həˈləʊ', 'həˈləʊ', '', 'Array', 23),
-('USA', 'juːɛsˈeɪ', 'juːɛsˈeɪ', '', 'Array', 24),
-('PHP', '', '', '', 'Array', 25),
-('java', 'ˈdʒɑːvə', 'ˈdʒɑːvə', '', 'Array', 26);
+('a', 'ə', 'ə', '', 'a', 37),
+('a-', 'ə', 'ə', '', 'a-', 38),
+('A3', '', '', '', 'A3', 40),
+('A4', '', '', '', 'A4', 41),
+('A5', '', '', '', 'A5', 42),
+('AAA', 'eɪeɪˈeɪ', 'eɪeɪˈeɪ', '', 'AAA', 43),
+('AAAS', '', '', '', 'AAAS', 44),
+('AAD', '', '', '', 'AAD', 45),
+('Aadhaar', 'ɑːdˈhɑː', 'ɑːdˈhɑː', '', 'Aadhaar', 46),
+('a', 'ə', 'ə', '', 'a', 47),
+('A3', '', '', '', 'A3', 48);
 
 --
 -- Indexes for dumped tables
@@ -93,7 +94,7 @@ ALTER TABLE `word_data`
 -- AUTO_INCREMENT for table `word_data`
 --
 ALTER TABLE `word_data`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
