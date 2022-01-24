@@ -35,7 +35,7 @@ foreach($words as $value){
           else
             $origin = '';
           
-          $meanings =  $someArray[0]["meanings"][0];
+            $meanings = $someArray[0]["word"];
           $sql = "INSERT INTO word_data (word,phonetic,phonetics,origin,meanings) VALUES ('$keyName','$phonetic','$phonetics','$origin','$meanings')";
           if ($conn->query($sql) === TRUE) {
               echo "New record created successfully";
